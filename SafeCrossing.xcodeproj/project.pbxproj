@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4276BC9C97310F5304144A40 /* Pods_SafeCrossingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01AD65CE62250880D8AE72C7 /* Pods_SafeCrossingTests.framework */; };
 		6ADD6741828A582164C2B02A /* Pods_SafeCrossingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC8BAAED3141D4B3C5DE3BB /* Pods_SafeCrossingUITests.framework */; };
+		8985948621759E360030073A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985948521759E360030073A /* LoginViewController.swift */; };
 		899F898821759A350092EC96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F898721759A350092EC96 /* AppDelegate.swift */; };
 		899F898A21759A350092EC96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F898921759A350092EC96 /* ViewController.swift */; };
 		899F898D21759A350092EC96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899F898B21759A350092EC96 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		6366DDD268954E561EBCC766 /* Pods-SafeCrossingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeCrossingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SafeCrossingTests/Pods-SafeCrossingTests.release.xcconfig"; sourceTree = "<group>"; };
 		6FC8BAAED3141D4B3C5DE3BB /* Pods_SafeCrossingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeCrossingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		861447FB51EB6F5CF150F9E0 /* Pods-SafeCrossing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeCrossing.release.xcconfig"; path = "Pods/Target Support Files/Pods-SafeCrossing/Pods-SafeCrossing.release.xcconfig"; sourceTree = "<group>"; };
+		8985948521759E360030073A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		899F898421759A350092EC96 /* SafeCrossing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeCrossing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		899F898721759A350092EC96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		899F898921759A350092EC96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				899F899321759A360092EC96 /* LaunchScreen.storyboard */,
 				899F899621759A360092EC96 /* Info.plist */,
 				899F898E21759A350092EC96 /* SafeCrossing.xcdatamodeld */,
+				8985948521759E360030073A /* LoginViewController.swift */,
 			);
 			path = SafeCrossing;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8985948621759E360030073A /* LoginViewController.swift in Sources */,
 				899F898A21759A350092EC96 /* ViewController.swift in Sources */,
 				899F899021759A350092EC96 /* SafeCrossing.xcdatamodeld in Sources */,
 				899F898821759A350092EC96 /* AppDelegate.swift in Sources */,
