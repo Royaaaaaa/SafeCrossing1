@@ -13,7 +13,7 @@
 		6ADD6741828A582164C2B02A /* Pods_SafeCrossingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC8BAAED3141D4B3C5DE3BB /* Pods_SafeCrossingUITests.framework */; };
 		8985948621759E360030073A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985948521759E360030073A /* LoginViewController.swift */; };
 		899F898821759A350092EC96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F898721759A350092EC96 /* AppDelegate.swift */; };
-		899F898A21759A350092EC96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F898921759A350092EC96 /* ViewController.swift */; };
+		899F898A21759A350092EC96 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F898921759A350092EC96 /* HomeViewController.swift */; };
 		899F898D21759A350092EC96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899F898B21759A350092EC96 /* Main.storyboard */; };
 		899F899021759A350092EC96 /* SafeCrossing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 899F898E21759A350092EC96 /* SafeCrossing.xcdatamodeld */; };
 		899F899221759A360092EC96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899F899121759A360092EC96 /* Assets.xcassets */; };
@@ -52,7 +52,7 @@
 		8985948521759E360030073A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		899F898421759A350092EC96 /* SafeCrossing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeCrossing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		899F898721759A350092EC96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		899F898921759A350092EC96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		899F898921759A350092EC96 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		899F898C21759A350092EC96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		899F898F21759A350092EC96 /* SafeCrossing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SafeCrossing.xcdatamodel; sourceTree = "<group>"; };
 		899F899121759A360092EC96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -136,7 +136,7 @@
 			children = (
 				899F89B821759B180092EC96 /* GoogleService-Info.plist */,
 				899F898721759A350092EC96 /* AppDelegate.swift */,
-				899F898921759A350092EC96 /* ViewController.swift */,
+				899F898921759A350092EC96 /* HomeViewController.swift */,
 				899F898B21759A350092EC96 /* Main.storyboard */,
 				899F899121759A360092EC96 /* Assets.xcassets */,
 				899F899321759A360092EC96 /* LaunchScreen.storyboard */,
@@ -416,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 
+				899F898A21759A350092EC96 /* HomeViewController.swift in Sources */,
 				045EBD902175A03E00F9266D /* StartViewController.swift in Sources */,
 				8985948621759E360030073A /* LoginViewController.swift in Sources */,
 				899F898A21759A350092EC96 /* ViewController.swift in Sources */,
